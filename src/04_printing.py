@@ -10,8 +10,14 @@ z = "I like turtles!"
 
 # Using the printf operator (%), print the following feeding in the values of x,
 # y, and z:
+
 # x is 10, y is 2.25, z is "I like turtles!"
 
-# Use the 'format' string method to print the same thing
+# print(f"x is {x}, y is {y}, z is {z}" % (round(y,2))
 
+print(f"x is {x}, y is {y}, z is {z}")
+# Use the 'format' string method to print the same thing
+print("x is {x}, y is {y:4.2f}, z is {z}".format(x=10,y=2.25,z="I like turtles!"))
 # Finally, print the same thing using an f-string
+
+print(f'x is {x}, y is {y}, z is {z}')
